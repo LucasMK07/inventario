@@ -1,0 +1,58 @@
+        body{
+            margin: auto;
+            width: 100%;
+            background-color: rgba(0,255,127,5.0);
+        }
+
+        header{
+            display: flex;
+            justify-content: center;
+            background-color: blue;
+            color: aliceblue;
+            text-align: center;
+        }
+        header ul li{
+            list-style: none;
+        }
+
+        section form ul li{
+            list-style: none;
+            display: inline-block;
+         
+        }
+        div{
+            list-style: none;
+            font-size: 30px;
+            display: inline-block;        
+        }
+        section form ul li label{
+            font-size: 22px;
+        }
+
+        section{
+            margin-top: 1%;
+            display: flex;
+            justify-content: center;
+            font-size: medium;
+        }
+
+        select{
+            width: 100%;
+            font-size: 30px;
+        }
+
+        section button{
+            margin: 5px;
+            font-size: 20px;
+        }
+
+
+
+        table, th, td{
+        border: 2px solid black;
+        border-collapse: collapse;
+        border-radius: 5px;
+        font-size: 40px;
+        }
+
+ 
